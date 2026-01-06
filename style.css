@@ -8,14 +8,8 @@ body {
     flex-direction: column;
 }
 
-
 * {
     box-sizing: border-box;
-}
- 
-main {
-    flex: 1;
-}
 
 header {
     background-color: #4a5d54;
@@ -30,9 +24,6 @@ header {
     margin: 0;
 }
 
-
-
-
 header h1 {
     font-size: 46px;
     margin: 0;
@@ -41,9 +32,6 @@ header h1 {
 header p {
     margin: 8px 0 0 0;
 }
-
-
-
 
 #home {
     background-image: url('backround.jpeg'); 
@@ -55,13 +43,7 @@ header p {
     border-radius: 50px;
     color: white;
     width: 100%;
-
-
-
 }
-
-
-
 
 nav {
     background-color: #4a5d54; 
@@ -86,7 +68,6 @@ nav a:hover {
     background-color: #b49b5e;
     color: #2f3a34;
 }
-
 
 .hero {
     display: flex;
@@ -162,7 +143,6 @@ nav a:hover {
 .btn.tiktok { background-color: #000; }
 .btn.tiktok:hover { background-color: #333; transform: translateY(-3px); }
 
-
 section {
     margin: 30px;
     padding: 30px;
@@ -170,7 +150,6 @@ section {
     border-radius: 25px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-
 
 .image-row {
     display: flex;
@@ -200,18 +179,7 @@ section {
     border-color: #4a5d54;
 }
 
-
-.btn-about { background-color: #b49b5e; color: #fff; }
-.btn-about:hover { background-color: #8a6a3f; transform: scale(1.05); }
-
-.btn-family { background-color: #4a5d54; color: #f2efe9; }
-.btn-family:hover { background-color: #3a4743; transform: scale(1.05); }
-
-.btn-friend { background-color: #8b5e83; color: #fff; }
-.btn-friend:hover { background-color: #734c6d; transform: scale(1.05); }
-
 .page-audio { display: block; width: 300px; margin: 30px auto; border-radius: 10px; }
-
 
 footer {
     background-color: #4a5d54;
@@ -224,13 +192,10 @@ footer {
     font-size: 14px;
     margin: 0;
 }
-
-              
+           
 main {
     flex: 1;
 }
-
-
 
 .about-section .btn-about,
 .about-section .btn-family,
@@ -246,7 +211,6 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-
 .about-section .btn-about {
     background-color: #b49b5e; 
     color: #fff;
@@ -258,7 +222,6 @@ main {
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
-
 .about-section .btn-family {
     background-color: #4a5d54; 
     color: #f2efe9;
@@ -269,7 +232,6 @@ main {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
-
 
 .about-section .btn-friend {
     background-color: #8b5e83;
@@ -291,7 +253,6 @@ main {
     font-size: 30px;
 }
 
-
 .skill-section {
     background-image: url('dark.jpg'); 
     background-size: cover; 
@@ -302,9 +263,6 @@ main {
 .skill-section p {
     color: white; 
 }
-
-
-
 
 .skill-list li {
     background-color: rgba(255, 255, 255, 0.85);
@@ -321,7 +279,6 @@ main {
     transform: translateX(5px);
 }
 
-
 .background-image {
     position: fixed;     
     top: 0;
@@ -334,9 +291,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
-
+    
 .education-hero-bg {
     background-image: url('backround.jpeg');
     background-size: cover;
@@ -372,8 +327,6 @@ main {
 .education-hero-bg p {
     font-size: 18px;
 }
-
-
 
 .education-section {
     margin: 30px;
@@ -433,22 +386,17 @@ main {
 .edu-btn.instagram { background-color: #c13584; }
 .edu-btn.tiktok { background-color: #000; }
 
-
 .edu-map {
     margin-top: 15px;
     border-radius: 12px;
     overflow: hidden;
 }
 
-
-
 .edu-links
 {
  justify-content: center;
     
 }
-
-
 .hobby-wrap {
     background-color: lightpink;
     margin: 40px;
@@ -462,7 +410,6 @@ main {
     border-spacing: 20px;
 }
 
-
 .hobby-table td {
     background-color: #f2efe9;  
     padding: 25px;
@@ -470,8 +417,7 @@ main {
     vertical-align: top;
     box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
-
-
+    
 .hobby-table img {
     width: 100%;
     height: 220px;
@@ -494,7 +440,6 @@ color: olivedrab;
     margin-bottom: 10px;
 }
 
-
 .gallery-section {
     margin: 40px;
     padding: 40px;
@@ -515,13 +460,11 @@ color: olivedrab;
     color: #2f3a34;
 }
 
-
 .gallery-table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 25px;
 }
-
 
 .gallery-table td {
     background-color: white;
@@ -549,12 +492,93 @@ color: olivedrab;
     font-weight: bold;
     color: #4a5d54;
 }
-
-
-    }
-
+    
     .gallery-table td {
         margin-bottom: 20px;
     }
+
+.experience-page {
+  margin: 40px;
+  padding: 40px;
+ background-color: sandybrown;
+  border-radius: 30px;
 }
 
+.experience-page .page-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #2f3a34;
+}
+
+.exp-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-left: 8px solid #8b5e83;
+  transition: transform 0.3s ease;
+}
+
+.exp-card h2 {
+  color: #4a5d54;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.exp-card p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.exp-card.highlight {
+  border-left-color: #b49b5e;
+  background-color: #f7f4ee;
+}
+
+.experience-page ul,
+.experience-page ol {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.experience-page li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #2f3a34;
+}
+
+.exp-table-wrap h2 {
+  text-align: center;
+  color: #4a5d54;
+  margin-bottom: 20px;
+}
+
+.exp-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.exp-table th {
+  background-color: #4a5d54;
+  color: #f2efe9;
+  padding: 16px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.exp-table td {
+  padding: 15px;
+  font-size: 15px;
+  background-color: #f2efe9;
+  color: #2f3a34;
+}
+
+.exp-table tr:hover td {
+  background-color: #dcd5c6;
+  transition: background-color 0.3s;
+}
