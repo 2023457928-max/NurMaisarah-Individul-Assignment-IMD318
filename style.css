@@ -46,7 +46,7 @@ header p {
 
 
 #home {
-    background-image: url('image/backround.jpeg'); 
+    background-image: url('backround.jpeg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -557,3 +557,4 @@ color: olivedrab;
         margin-bottom: 20px;
     }
 }
+
