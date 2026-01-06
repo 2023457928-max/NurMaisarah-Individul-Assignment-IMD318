@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="skills.html">Skills</a>
+    <a href="education.html">Education</a>
+    <a href="hobby.html">Hobby</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+ 
+<audio controls class="page-audio">
+    <source src="sweet.mp3" type="audio/mpeg">
+</audio>
+
+
+<section class="about-section">
+    <h1>About Me</h1>
+
+    <div class="image-row">
+        <div class="image-item">
+            <img src="me.jpg" id="about">
+            <button class="btn-about" onclick="changePic('about','me.jpg')">Picture A</button>
+            <button class="btn-about" onclick="changePic('about','mai.jpg')">Picture B</button>
+        </div>
+    </div>
+
+    <p class="center-text">
+        My name is Nur Maisarah, and I am the fourth and youngest daughter in my family. 
+    Being the youngest has shaped my personality in many ways, as I have grown up 
+    surrounded by care, guidance, and strong family values. This website is created 
+    to introduce myself, share my personal background, and present meaningful aspects 
+    of my life in a simple, creative, and organized manner. Through this platform, 
+    I hope visitors can get to know me better, not only as a student but also as an 
+    individual with interests, experiences, and goals for the future.
+    </p>
+</section>
+
+
+<section class="about-section">
+    <h2>My Family</h2>
+
+    <div class="image-row">
+        <div class="image-item">
+            <img src="family1.jpg" id="family1">
+            <button class="btn-family" onclick="changePic('family1','family1.jpg')">Picture A</button>
+            <button class="btn-family" onclick="changePic('family1','family2.jpg')">Picture B</button>
+        </div>
+
+        <div class="image-item">
+            <img src="sib1.jpg" id="family2">
+            <button class="btn-family" onclick="changePic('family2','sib1.jpg')">Picture C</button>
+            <button class="btn-family" onclick="changePic('family2','sib.jpg')">Picture D</button>
+        </div>
+
+        <div class="image-item">
+            <img src="mom1.jpg" id="family3">
+            <button class="btn-family" onclick="changePic('family3','mom1.jpg')">Picture E</button>
+            <button class="btn-family" onclick="changePic('family3','sib2.jpg')">Picture F</button>
+        </div>
+    </div>
+
+    <p class="center-text">
+        <p class="center-text">
+    I come from a loving and supportive family, where I am the fourth and youngest daughter. 
+    My family has always been a strong pillar in my life, providing emotional support, 
+    motivation, and valuable life lessons. Growing up in a close-knit family environment 
+    has taught me the importance of respect, responsibility, and gratitude. Their constant 
+    encouragement inspires me to work hard, stay focused on my studies, and strive to become 
+    a better person in both my academic and personal life.
+</p>
+
+    </p>
+</section>
+
+
+<section class="about-section">
+    <h2>My Friends</h2>
+
+    <div class="image-row">
+        <div class="image-item">
+            <img src="friend1.jpg" id="friend1">
+            <button class="btn-friend" onclick="changePic('friend1','friend1.jpg')">Picture A</button>
+            <button class="btn-friend" onclick="changePic('friend1','friend2.jpg')">Picture B</button>
+        </div>
+
+        <div class="image-item">
+            <img src="friend3.jpg" id="friend2">
+            <button class="btn-friend" onclick="changePic('friend2','friend3.jpg')">Picture C</button>
+            <button class="btn-friend" onclick="changePic('friend2','friend4.jpg')">Picture D</button>
+        </div>
+    </div>
+
+    <p class="center-text">
+        Friends play an important role in my life as they bring happiness, support, and 
+    meaningful companionship. Through friendships, I have learned the value of trust, 
+    teamwork, and understanding different personalities. My friends have been with me 
+    during both joyful moments and challenging times, creating unforgettable memories 
+    that I truly cherish. Their presence motivates me to stay positive, confident, 
+    and balanced in my daily life.
+    </p>
+</section>
+
+<footer>
+    &copy; 2026 Nur Maisarah | Personal Website
+</footer>
+
+<script>
+    
+
+    function changePic(id, newSrc) {
+        document.getElementById(id).src = newSrc;
+    }
+</script>
+
+  
+
+
+</body>
+</html>
